@@ -4,8 +4,44 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin-left"
+			],
+			[
 				"pad",
-				"padding"
+				"padding-bottom"
+			],
+			[
+				"home_page",
+				"home_page_small"
+			],
+			[
+				"log",
+				"login"
+			],
+			[
+				"Musik",
+				"Musikunderviser"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"trans",
+				"transition"
 			],
 			[
 				"back-c",
@@ -28,10 +64,6 @@
 				"transparent"
 			],
 			[
-				"marg",
-				"margin-right"
-			],
-			[
 				"max",
 				"max-height"
 			],
@@ -42,14 +74,6 @@
 			[
 				"imp",
 				"important"
-			],
-			[
-				"mar",
-				"margin-top"
-			],
-			[
-				"di",
-				"display"
 			],
 			[
 				"min-",
@@ -74,10 +98,6 @@
 			[
 				"do",
 				"document"
-			],
-			[
-				"li",
-				"li	Tag"
 			],
 			[
 				"padd",
@@ -494,36 +514,48 @@
 			[
 				"ow",
 				"owner"
-			],
-			[
-				"own",
-				"ownerUser"
-			],
-			[
-				"lectio",
-				"lectiocontextcard"
-			],
-			[
-				"cont",
-				"context_card"
-			],
-			[
-				"ele",
-				"elements"
-			],
-			[
-				"stu",
-				"studentGroups"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/R/FindMusikundervisning.dk/application/config/routes.php",
+			"settings":
+			{
+				"buffer_size": 2484,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/R/FindMusikundervisning.dk/application/views/templates/footer_view.php",
+			"settings":
+			{
+				"buffer_size": 1243,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/R/FindMusikundervisning.dk/application/controllers/About.php",
+			"settings":
+			{
+				"buffer_size": 383,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/R/FindMusikundervisning.dk/application/libraries/user_control.php",
+			"settings":
+			{
+				"buffer_size": 769,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 490.0,
+		"height": 45.0,
 		"selected_items":
 		[
 			[
@@ -596,10 +628,86 @@
 	},
 	"expanded_folders":
 	[
-		"/R/FindMusikundervisning.dk"
+		"/R/FindMusikundervisning.dk",
+		"/R/FindMusikundervisning.dk/application",
+		"/R/FindMusikundervisning.dk/application/controllers",
+		"/R/FindMusikundervisning.dk/application/core",
+		"/R/FindMusikundervisning.dk/application/language",
+		"/R/FindMusikundervisning.dk/application/language/danish",
+		"/R/FindMusikundervisning.dk/application/libraries/auth",
+		"/R/FindMusikundervisning.dk/application/views",
+		"/R/FindMusikundervisning.dk/application/views/layouts",
+		"/R/FindMusikundervisning.dk/application/views/templates",
+		"/R/FindMusikundervisning.dk/assets/css",
+		"/R/FindMusikundervisning.dk/prototype"
 	],
 	"file_history":
 	[
+		"/R/FindMusikundervisning.dk/application/controllers/Contact.php",
+		"/R/FindMusikundervisning.dk/application/views/contact_view.php",
+		"/C/Users/Bo/Desktop/startbootstrap-agency-1.0.2/startbootstrap-agency-1.0.2/index.html",
+		"/R/FindMusikundervisning.dk/assets/css/style.css",
+		"/R/FindMusikundervisning.dk/application/views/templates/nav_view.php",
+		"/R/FindMusikundervisning.dk/application/views/templates/footer_view.php",
+		"/R/FindMusikundervisning.dk/application/controllers/Login.php",
+		"/R/FindMusikundervisning.dk/application/views/layouts/login.php",
+		"/R/FindMusikundervisning.dk/application/views/layouts/default.php",
+		"/R/FindMusikundervisning.dk/application/views/login_view.php",
+		"/R/FindMusikundervisning.dk/prototype/login.html",
+		"/R/FindMusikundervisning.dk/assets/css/login.css",
+		"/R/FindMusikundervisning.dk/application/controllers/Home.php",
+		"/R/FindMusikundervisning.dk/application/views/home_view.php",
+		"/R/FindMusikundervisning.dk/application/config/config.php",
+		"/R/FindMusikundervisning.dk/application/libraries/Template.php",
+		"/R/FindMusikundervisning.dk/application/language/danish/app_lang.php",
+		"/R/FindMusikundervisning.dk/prototype/front.html",
+		"/R/FindMusikundervisning.dk/prototype/about.html",
+		"/R/FindMusikundervisning.dk/user_guide/general/alternative_php.html",
+		"/R/FindMusikundervisning.dk/application/helpers/rand_helper.php",
+		"/R/FindMusikundervisning.dk/prototype/bootstrap/node_modules/npm-shrinkwrap/node_modules/npm/node_modules/request/node_modules/combined-stream/lib/combined_stream.js",
+		"/R/FindMusikundervisning.dk/prototype/bootstrap/node_modules/grunt-contrib-qunit/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/lib/phantom/examples/render_multi_url.js",
+		"/R/FindMusikundervisning.dk/prototype/bootstrap/node_modules/remarkable/node_modules/argparse/lib/action/append.js",
+		"/R/FindMusikundervisning.dk/user_guide/overview/appflow.html",
+		"/R/FindMusikundervisning.dk/application/controllers/About.php",
+		"/R/FindMusikundervisning.dk/application/config/autoload.php",
+		"/R/TwitterAnalytics/v2/application/models/base_model.php",
+		"/R/TwitterAnalytics/v2/application/models/cleanup_model.php",
+		"/R/FindMusikundervisning.dk/application/models/data_io_model.php",
+		"/R/TwitterAnalytics/v2/application/models/data_io_model.php",
+		"/R/TwitterAnalytics/v2/application/models/token_model.php",
+		"/R/TwitterAnalytics/v2/application/libraries/auth/login_security.php",
+		"/R/TwitterAnalytics/v2/application/libraries/curl.php",
+		"/R/FindMusikundervisning.dk/application/helpers/request_helper.php",
+		"/R/FindMusikundervisning.dk/application/helpers/string_helper.php",
+		"/R/FindMusikundervisning.dk/application/helpers/unit_helper.php",
+		"/R/FindMusikundervisning.dk/application/helpers/generate_list_helper.php",
+		"/R/FindMusikundervisning.dk/application/helpers/ci_helper.php",
+		"/R/FindMusikundervisning.dk/application/helpers/approve_helper.php",
+		"/R/FindMusikundervisning.dk/application/core/MY_Router.php",
+		"/R/FindMusikundervisning.dk/application/core/MY_Router.php.txt",
+		"/R/FindMusikundervisning.dk/application/views/about_view.php",
+		"/R/FindMusikundervisning.dk/application/config/template.php",
+		"/R/FindMusikundervisning.dk/application/language/danish/teacher_lang.php",
+		"/R/FindMusikundervisning.dk/application/views/teacher_view.php",
+		"/R/FindMusikundervisning.dk/prototype/teacher.html",
+		"/R/FindMusikundervisning.dk/application/views/layouts/defaults.php",
+		"/R/FindMusikundervisning.dk/application/config/smileys.php",
+		"/R/FindMusikundervisning.dk/assets/js/teacher.js",
+		"/R/FindMusikundervisning.dk/prototype/contact.html",
+		"/R/FindMusikundervisning.dk/application/language/danish/contact_lang.php",
+		"/R/FindMusikundervisning.dk/application/language/danish/login_lang.php",
+		"/R/FindMusikundervisning.dk/application/config/routes.php",
+		"/R/FindMusikundervisning.dk/application/views/nav_view.php",
+		"/C/Users/Bo/Downloads/codeigniter-template-master/codeigniter-template-master/config/autoload.php",
+		"/R/FindMusikundervisning.dk/application/controllers/Welcome.php",
+		"/R/FindMusikundervisning.dk/application/config/database.php",
+		"/R/FindMusikundervisning.dk/README.md",
+		"/R/FindMusikundervisning.dk/js/login.js",
+		"/R/FindMusikundervisning.dk/css/login.css",
+		"/R/FindMusikundervisning.dk/login.html",
+		"/R/FindMusikundervisning.dk/assets/css/bootstrap-tagsinput.css",
+		"/R/FindMusikundervisning.dk/messages.html",
+		"/R/FindMusikundervisning.dk/css/style.css",
 		"/R/Tandlæge/js/agency.js",
 		"/R/Tandlæge/less/agency.less",
 		"/R/Tandlæge/index.html",
@@ -609,7 +717,6 @@
 		"/R/FindMusikundervisning.dk/css/news.css",
 		"/R/FindMusikundervisning.dk/news.html",
 		"/R/FindMusikundervisning.dk/css/news_list.css",
-		"/R/FindMusikundervisning.dk/css/style.css",
 		"/R/FindMusikundervisning.dk/contact.html",
 		"/R/FindMusikundervisning.dk/profile.html",
 		"/R/FindMusikundervisning.dk/css/contact.css",
@@ -618,7 +725,6 @@
 		"/R/FindMusikundervisning.dk/about.html",
 		"/R/FindMusikundervisning.dk/front.html",
 		"/R/FindMusikundervisning.dk/css/threads.css",
-		"/R/FindMusikundervisning.dk/messages.html",
 		"/R/FindMusikundervisning.dk/css/messages.css",
 		"/R/FindMusikundervisning.dk/js/script.js",
 		"/R/facebook-message-backup/web/static/js/app/threads.js",
@@ -664,74 +770,11 @@
 		"/C/Users/Bo/Desktop/convert.py",
 		"/C/Users/Bo/Desktop/test3.svg",
 		"/C/Users/Bo/Desktop/finished.svg",
-		"/C/Users/Bo/Desktop/test2.svg",
-		"/C/Users/Bo/Desktop/test-test.svg",
-		"/R/LectioAPI/scrapers/classes.py",
-		"/R/LectioAPI/scrapers/timetable.py",
-		"/C/Users/Bo/Desktop/test.html",
-		"/C/Users/Bo/Desktop/test4.svg",
-		"/C/Users/Bo/Desktop/test.svg",
-		"/C/Users/Bo/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
-		"/C/Users/Bo/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
-		"/C/Users/Bo/AppData/Roaming/Sublime Text 3/Packages/Anaconda/README.md",
-		"/C/Users/Bo/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/C/Users/Bo/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/C/Users/Bo/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings",
-		"/R/LectioAPI/importers/importOutgoingCensor.py",
-		"/R/LectioAPI/importers/importStudents.py",
-		"/R/LectioAPI/importers/importFieldOfStudyPresentation.py",
-		"/R/LectioAPI/__init__.py",
-		"/R/LectioAPI/scrapers/image.py",
-		"/C/Users/Bo/AppData/Local/Temp/scp18073/home/boh1996/lectio/lectio.py",
-		"/R/LectioAPI/scrapers/team_elements.py",
-		"/R/LectioAPI/scrapers/students.py",
-		"/R/LectioAPI/importers/importTeamElements.py",
-		"/R/LectioAPI/scrapers/urls.py",
-		"/R/LectioAPI/scrapers/asignments.py",
-		"/R/LectioAPI/importers/importTeamInfo.py",
-		"/R/LectioAPI/importers/importTeamElementInfo.py",
-		"/R/LectioAPI/importers/importEducationDescription.py",
-		"/R/LectioAPI/importers/importPhase.py",
-		"/R/LectioAPI/importers/importPrivateActivity.py",
-		"/R/LectioAPI/scrapers/subject_list.py",
-		"/R/LectioAPI/scrapers/field_of_studies.py",
-		"/R/LectioAPI/scrapers/groups.py",
-		"/R/LectioAPI/scrapers/rooms.py",
-		"/R/LectioAPI/scrapers/ressources.py",
-		"/R/LectioAPI/scrapers/subjects.py",
-		"/R/LectioAPI/scrapers/description.py",
-		"/R/LectioAPI/sync.py",
-		"/R/LectioAPI/importers/importSubjects.py",
-		"/R/LectioAPI/importers/importSubjectList.py",
-		"/R/LectioAPI/importers/importXPRSSubjects.py",
-		"/R/LectioAPI/importers/importXPRSSubject.py",
-		"/R/LectioAPI/scrapers/context_card.py",
-		"/R/LectioAPI/importers/importPrivateTimetable.py",
-		"/R/LectioAPI/importers/importActivityInfo.py",
-		"/R/LectioAPI/scrapers/activity_info.py",
-		"/R/LectioAPI/scrapers/values.py",
-		"/R/LectioAPI/importers/importRooms.py",
-		"/R/LectioAPI/importers/importRessources.py",
-		"/R/LectioAPI/scrapers/teachers.py",
-		"/R/LectioAPI/importers/importAssignmentInfo.py",
-		"/R/LectioAPI/importers/importAssignments.py",
-		"/R/LectioAPI/scrapers/assignment_info.py",
-		"/R/LectioAPI/importers/cel.py",
-		"/R/LectioAPI/importers/ImportClassMembers.py",
-		"/R/LectioAPI/scrapers/message_file.py",
-		"/R/LectioAPI/scrapers/exercise_file.py",
-		"/R/LectioAPI/importers/log.txt",
-		"/R/LectioAPI/scrapers/team_info.py",
-		"/R/LectioAPI/scrapers/log.text",
-		"/R/LectioAPI/scrapers/surveys.py",
-		"/R/LectioAPI/scrapers/documents.py",
-		"/R/LectioAPI/scrapers/grades.py",
-		"/R/LectioAPI/scrapers/school_objects.py",
-		"/R/LectioAPI/scrapers/skills.py"
+		"/C/Users/Bo/Desktop/test2.svg"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -757,6 +800,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img/_DSC0428_small.jpg",
+			"EXT",
+			"app_title",
+			"Besked",
+			"Back",
+			"email",
+			"text",
+			"forgot-pass",
+			"hover",
+			"999",
+			"#999",
+			"col-lg-4 col-xs-4 col-sm-2",
+			".omb_login ",
+			"omb_hrOr",
+			"submit",
+			"#999",
+			"form ",
+			"input",
+			"500ms",
+			"ease-out",
+			"border",
+			"forgot-pass",
+			"font-size: 12px;",
+			"font",
+			"color: #eee;",
+			"color: #FFFFFF;",
+			".posted",
+			".posted by",
 			".btn-primary",
 			"#006690",
 			"links",
@@ -856,35 +927,7 @@
 			"text=True",
 			"print",
 			"2",
-			".text",
-			"team_element_id",
-			"row",
-			"4 + pictureOffset",
-			"showed_in",
-			"team",
-			"group_id",
-			"studentsList",
-			"\"\")\n",
-			"row",
-			"elementStudent",
-			"uniqueStudent",
-			"team_id",
-			"repalace",
-			"element",
-			"team",
-			"team_id",
-			"2",
-			"changedGroups",
-			"Indl",
-			"Ind",
-			"skills",
-			"print",
-			"find_folders",
-			"folders",
-			"find_folders",
-			"match_folder",
-			"student_id",
-			"startYear"
+			".text"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1027,8 +1070,124 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/R/FindMusikundervisning.dk/application/config/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2373,
+								2373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/R/FindMusikundervisning.dk/application/views/templates/footer_view.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1008,
+								1008
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/R/FindMusikundervisning.dk/application/controllers/About.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/R/FindMusikundervisning.dk/application/libraries/user_control.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								687,
+								687
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],

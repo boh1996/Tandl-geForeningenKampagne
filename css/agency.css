@@ -708,8 +708,9 @@ aside.clients img {
 }
 
 section#contact {
-    margin-top: -8px !important;
+ 
     background-color: #222;
+    height: calc(100vh - 168px);
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -934,4 +935,100 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+/* Product Slider */
+
+.search-item {
+    height: 300px;
+    max-height: 300px;
+    display: inline-block;
+    min-height: 300px;
+    width: 250px;
+    max-width: 250px;
+    min-width: 250px;
+}
+
+.search-item .fa-phone, .search-item .fa-envelope-o {
+    margin-right: 5px;
+}
+
+#myCarousel .right {
+    padding-left: 10px;
+}
+
+.search-item .caption {
+    padding-left: 10px;
+}
+
+.item .search-item:last-child {
+    float:right;
+}
+
+.phone {
+    float: left;
+}
+
+.name {
+    display: inline-block;
+    width: 220px;
+    position: fixed;
+    top: 180px;
+}
+
+.search-actions {
+    margin-bottom: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 235px;
+    padding-right: 15px;
+}
+
+#myCarousel .thumbnail {
+    margin-bottom: 0;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+}
+.carousel-control {
+    color:#fff;
+    top:40%;
+    color:#428BCA;
+    bottom:auto;
+    padding-top:4px;
+    width:30px;
+    height:30px;
+    text-shadow:none;
+    opacity:1;
+}
+.carousel-control:hover {
+    color: #d9534f;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+}
+.carousel-control.right {
+    left:auto;
+    right:-32px;
+}
+.carousel-control.left {
+    right:auto;
+    left:-32px;
+}
+
+.carousel-indicators {
+    bottom:-30px;
+}
+.carousel-indicators li {
+    border-radius:0;
+    width:10px;
+    height:10px;
+    background:#ccc;
+    border:1px solid #ccc;
+}
+.carousel-indicators .active {
+    width:12px;
+    height:12px;
+    background:#3276b1;
+    border-color:#3276b1;
 }
