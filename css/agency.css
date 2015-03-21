@@ -364,6 +364,7 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        color: #6bb9e7 !important;
     }
 
     header .intro-text .intro-heading {
@@ -953,6 +954,14 @@ body {
     margin-right: 5px;
 }
 
+.service-price {
+    font-size: 18px;
+}
+
+.search-back-container {
+    margin-top: 25px;
+}
+
 #myCarousel .right {
     padding-left: 10px;
 }
@@ -1031,4 +1040,12 @@ body {
     height:12px;
     background:#3276b1;
     border-color:#3276b1;
+}
+
+.find-button {
+    margin-right: 15px;
+}
+
+#portfolio {
+    padding-top: 100px;
 }

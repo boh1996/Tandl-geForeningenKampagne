@@ -31,8 +31,8 @@ $(document).on("submit", "#findForm", function (event) {
 						var anchors = $(element).find("a");
 						var dentist = {
 							phone : anchors[1].text.trim(),
-							name : anchors[0].text.trim(),
-							address : $(element).find(".col-xs-6").html().trim().replace("                        ", "").replace("<br>", "").replace("\n", "<br>").replace("&nbsp;", ", ")
+							name : anchors[0].text.trim().replace("/", " / "),
+							address : $(element).find(".col-xs-6").html().trim().replace("                        ", "").replace("<br>", "").replace("\n", "<br>").replace("/", " / ").replace("&nbsp;", ", ")
 						}
 						if ( results[results.length - 1]["items"].length > 3 ) {
 							results.push({
@@ -76,4 +76,11 @@ $(document).on("submit", "#findForm", function (event) {
 			}
 		});
 	}
+});
+
+$(document).on("click", ".search-back", function (event) {
+	event.preventDefault();
+
+	$("#search_page").addClass("hidden");
+	$("#contact_form").removeClass("hidden");
 });
