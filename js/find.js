@@ -16,6 +16,9 @@ $(document).on("submit", "#findForm", function (event) {
 	}
 
 	if ( error != true ) {
+		$("#spinner").removeClass("hidden");
+		$("#findForm").css("opacity", "0.3");
+
 		$.ajax({
 			origin: window.location.protocol + '//' + window.location.host,
 			url : url,
@@ -44,8 +47,6 @@ $(document).on("submit", "#findForm", function (event) {
 					}
 				} );
 
-				console.log(results);
-
 				if ( results[0]["items"].length > 0 ) {
 					$(results).each( function ( i, page ) {
 						var pageElement = $('<div class="item"><div class="row"></div></div>');
@@ -65,6 +66,8 @@ $(document).on("submit", "#findForm", function (event) {
 						$("#searchContainer").append(pageElement);
 					} );
 
+					$("#spinner").addClass("hidden");
+					$("#findForm").css("opacity", "1.0");
 					$("#contact_form").addClass("hidden");
 					$("#search_page").removeClass("hidden");
 					$("#search_page .item:first").addClass("active");
