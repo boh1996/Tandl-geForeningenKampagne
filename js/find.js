@@ -29,6 +29,10 @@ $(document).on("submit", "#findForm", function (event) {
 						items : []
 					}
 				];
+
+				$("#searchContainer").html("<!-- -->");
+				$(".error-text").remove();
+
 				$(site).find(".soegklinik .row").each( function ( index, element ) {
 					if ( index > 0 && $(element).find(".col-xs-6").length > 0 ) {
 						var anchors = $(element).find("a");
@@ -63,7 +67,7 @@ $(document).on("submit", "#findForm", function (event) {
 							pageElement.find(".row").append(template);
 						} );
 
-						$("#searchContainer").append(pageElement);
+						$("#searchContainer").prepend(pageElement);
 					} );
 
 					$("#spinner").addClass("hidden");
@@ -75,7 +79,22 @@ $(document).on("submit", "#findForm", function (event) {
 					$('#myCarousel').carousel({
     					interval: 10000
 					});
+				} else {
+					$("#spinner").addClass("hidden");
+					$("#findForm").css("opacity", "1.0");
+					$("#contact_form").addClass("hidden");
+					$("#search_page").removeClass("hidden");
+
+					$(".search-back-container").prepend('<h2 style="color:white; margin-bottom: 42px;" class="error-text">Ingen resultater fundet</h2>');
 				}
+			},
+			error : function () {
+				$("#spinner").addClass("hidden");
+				$("#findForm").css("opacity", "1.0");
+				$("#contact_form").addClass("hidden");
+				$("#search_page").removeClass("hidden");
+
+				$(".search-back-container").prepend('<h2 style="color:white; margin-bottom: 42px;" class="error-text">Ingen resultater fundet</h2>');
 			}
 		});
 	}
